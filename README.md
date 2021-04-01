@@ -16,3 +16,5 @@ When changes are ready for production, run the following bin script:
 ```bash
 ./bin/production.sh
 ```
+
+Note: No work should be done on the **production** branch. To make changes live, code should be PR'd from the **master** branch into the production branch.
