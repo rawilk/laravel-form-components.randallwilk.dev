@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+@import 'filepond/dist/filepond.min.css';
+@import 'flatpickr/dist/flatpickr.min.css';
+@import 'prism.css';
+@import 'utils/markdown.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    @import '../../vendor/rawilk/laravel-form-components/resources/js/laravel-form-components-styles/src/styles.css';
+}

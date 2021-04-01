@@ -18,11 +18,15 @@
         "@tailwindcss/typography": "^0.4.0",
         "alpinejs": "^2.8.2",
         "axios": "^0.21",
+        "babel-plugin-prismjs": "^2.0.1",
+        "clipboard": "^2.0.8",
         "filepond": "^4.26.1",
         "flatpickr": "^4.6.9",
         "laravel-mix": "^6.0.13",
         "lodash": "^4.17.19",
         "postcss": "^8.1.14",
+        "postcss-import": "^14.0.0",
+        "prismjs": "^1.23.0",
         "tailwindcss": "^2.0.4"
     }
 }
