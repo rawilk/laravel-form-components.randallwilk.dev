@@ -13,6 +13,7 @@
     </button>
 
     <div x-show="open"
+         x-cloak
          @include('partials.alpine-transitions.flyout-menu')
          class="hidden md:block absolute z-10 top-full inset-x-0 transform shadow-lg bg-white"
     >

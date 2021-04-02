@@ -4,6 +4,7 @@
      x-on:click.away="$dispatch('set-nav-open', false)"
      @include('partials.alpine-transitions.mobile-menu')
      x-show="open"
+     x-cloak
      class="absolute z-30 top-0 inset-x-0 p-2 transition transform origin-top-right md:hidden"
 >
     <div class="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 bg-white divide-y-2 divide-gray-50">
