@@ -33,7 +33,7 @@
             {{ $slot }}
         </div>
 
-        <div x-show="view === 'source'">
+        <div x-show="view === 'source'" x-cloak>
             {{ $source }}
         </div>
     </div>
