@@ -30,5 +30,5 @@
     >
         Inline Option 5
     </x-radio>
-</x-radio-group>
+</x-checkbox-group>
 ```
