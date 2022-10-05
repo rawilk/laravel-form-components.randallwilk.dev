@@ -1,32 +1,19 @@
 {
     "private": true,
     "scripts": {
-        "dev": "npm run development",
-        "development": "mix",
-        "watch": "mix watch",
-        "watch-poll": "mix watch -- --watch-options-poll=1000",
-        "hot": "mix watch --hot",
-        "prod": "npm run production",
-        "production": "mix --production"
+        "dev": "vite",
+        "build": "vite build"
     },
     "devDependencies": {
-        "@fullhuman/postcss-purgecss": "^4.0.3",
-        "@popperjs/core": "^2.9.1",
-        "@tailwindcss/aspect-ratio": "^0.2.0",
-        "@tailwindcss/forms": "^0.3.2",
-        "@tailwindcss/jit": "^0.1.17",
-        "@tailwindcss/typography": "^0.4.0",
-        "alpinejs": "^2.8.2",
-        "axios": "^0.21",
-        "babel-plugin-prismjs": "^2.0.1",
-        "clipboard": "^2.0.8",
-        "filepond": "^4.26.1",
-        "flatpickr": "^4.6.9",
-        "laravel-mix": "^6.0.13",
-        "lodash": "^4.17.19",
+        "@popperjs/core": "^2.11.6",
+        "@tailwindcss/forms": "^0.5.3",
+        "@tailwindcss/typography": "^0.5.7",
+        "alpinejs": "^3.10.3",
+        "filepond": "^4.30.4",
+        "flatpickr": "^4.6.13",
+        "laravel-vite-plugin": "^0.6.0",
         "postcss": "^8.1.14",
-        "postcss-import": "^14.0.0",
-        "prismjs": "^1.23.0",
-        "tailwindcss": "^2.0.4"
+        "tailwindcss": "^3.1.8",
+        "vite": "^3.0.0"
     }
 }
